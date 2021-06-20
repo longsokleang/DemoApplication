@@ -1,0 +1,7 @@
+runtime: java
+evn: flex
+runtime_config: 
+  jdk: openjdk8
+handler:
+-url: /.*
+//  script: this file is required, but ignored
