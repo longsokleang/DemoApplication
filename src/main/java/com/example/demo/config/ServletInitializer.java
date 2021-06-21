@@ -1,7 +1,9 @@
-package com.example.demo;
+package com.example.demo.config;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+import com.example.demo.DemoApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 	
@@ -9,5 +11,5 @@ public class ServletInitializer extends SpringBootServletInitializer {
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(DemoApplication.class) ;
 	}
-
+	
 }
